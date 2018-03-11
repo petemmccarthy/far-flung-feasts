@@ -1,0 +1,23 @@
+body, h1, h2, p {
+  background-color: #f4ff88;
+  /* font-family: fantasy; */
+  font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #444;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.tag-line {
+  font-size: 40px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.footer {
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+}

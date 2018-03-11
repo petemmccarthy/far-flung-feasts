@@ -4,6 +4,9 @@
 /dist
 /tmp
 
+/public
+.DS_Store
+
 # dependencies
 /node_modules
 /bower_components

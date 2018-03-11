@@ -14,11 +14,6 @@ body, h1, h2, p {
   display: inline;
 }
 
-#menu h1 em {
-    position: relative;
-    left: -12px;
-}
-
 a {
   text-decoration: none;
 }

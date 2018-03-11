@@ -10,6 +10,19 @@ body, h1, h2, p {
   text-align: center;
 }
 
+#menu {
+  display: inline;
+}
+
+#menu h1 em {
+    position: relative;
+    left: -12px;
+}
+
+a {
+  text-decoration: none;
+}
+
 .tag-line {
   font-size: 40px;
   font-weight: 300;

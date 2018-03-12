@@ -1,20 +1,28 @@
-<div id="menu" class="text-center">
-  {{#link-to "index"}}
-  <h1>
-    <em>Far Flung Feasts</em>
-  </h1>
-  {{/link-to}}
+<div class="container">
+  <div id="menu" class="text-center">
+    {{#link-to "index"}}
+    <h1>
+      <em>Far Flung Feasts</em>
+    </h1>
+    {{/link-to}}
 
-  {{#link-to "about" class="menu-about"}}
-    About
-  {{/link-to}}
+    {{#link-to "about" class="menu-about"}}
+      About
+    {{/link-to}}
+
+    {{#link-to "countries"}}
+      Get Started!
+    {{/link-to}}
+
+  </div>
+
+  <div class="tag-line text-center">...where would you like to taste today?</div>
+
+  <div class="body">
+    {{outlet}}
+  </div>
 
 </div>
-
-<div class="tag-line text-center">...where would you like to taste today?</div>
-
-{{outlet}}
-
 <footer class="footer text-center">
   <p>©2018 Far Flung Feasts</p>
 </footer>

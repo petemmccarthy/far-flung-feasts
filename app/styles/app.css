@@ -3,7 +3,7 @@ body, h1, h2, p {
   /* font-family: fantasy; */
   font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #444;
+  color: #444 important!;
 }
 
 .text-center {

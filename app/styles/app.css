@@ -10,11 +10,11 @@ body, h1, h2, p {
   text-align: center;
 }
 
-#menu {
-  display: inline;
+ul {
+  display: inline-block;
 }
 
-a {
+a, a:hover, a:focus {
   text-decoration: none;
 }
 

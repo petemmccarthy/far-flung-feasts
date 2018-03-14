@@ -1,3 +1,10 @@
 {{#each model as |country|}}
-  <h1>Country: {{country.name}}</h1>
+  <div class="col-md-4 mt50">
+    <figure>
+        <img class="country-image" src="/assets/images/{{country.name}}.png" alt="{{country.name}}">
+      <figcaption class="text-center">
+        <p>{{country.name}}</p>
+      </figcaption>
+    </figure>
+  </div>
 {{/each}}

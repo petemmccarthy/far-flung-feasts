@@ -24,7 +24,20 @@ a, a:hover, a:focus {
   font-style: italic;
 }
 
+.country-image {
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
 .footer {
+  background-color: #f4ff88;
   position:fixed;
   bottom: 0;
   width: 100%;

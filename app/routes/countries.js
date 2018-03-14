@@ -4,7 +4,7 @@ export default Route.extend({
 
   model() {
     return [{
-        name: 'India'
+      name: 'India'
     }, {
       name: 'Italy'
     }, {

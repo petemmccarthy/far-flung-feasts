@@ -1,9 +1,9 @@
-body, h1, h2, p {
+body, h1, h2, h3, p {
   background-color: #f4ff88;
   /* font-family: fantasy; */
   font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  color: #444 important!;
+  font-weight: 300;
+  color: #337ab7;
 }
 
 .text-center {
@@ -30,6 +30,10 @@ a, a:hover, a:focus {
   height: 150px;
   position: relative;
   overflow: hidden;
+}
+
+.mt20 {
+  margin-top: 20px;
 }
 
 .mt50 {

@@ -33,6 +33,12 @@ a, a:hover, a:focus {
   overflow: hidden;
 }
 
+.about {
+  margin-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .mt20 {
   margin-top: 20px;
 }

@@ -10,7 +10,9 @@ Router.map(function() {
   this.route('index', { path: '/home' });
   this.route('home', { path: '/' });
   this.route('about');
-  this.route('countries');
+  this.route('countries', function() {
+    this.route('country');
+  });
 
 });
 

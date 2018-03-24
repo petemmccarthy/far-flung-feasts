@@ -25,7 +25,7 @@ a, a:hover, a:focus {
   margin-top: 175px;
 }
 
-.country-image {
+.flag {
   margin: auto;
   width: 150px;
   height: 150px;
@@ -37,6 +37,7 @@ a, a:hover, a:focus {
   margin-top: 50px;
   padding-left: 30px;
   padding-right: 30px;
+  text-align: left;
 }
 
 .mt20 {

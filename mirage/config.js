@@ -1,6 +1,38 @@
 export default function() {
   this.namespace = '/api';
 
+  this.get('/countries', function() {
+      return {
+        data: [{
+          type: 'countries',
+          id: 'India',
+          attributes: {
+            name: 'India',
+            capital: 'New Delhi',
+            description: 'India description goes here!'
+          }
+        }, {
+          type: 'countries',
+          id: 'Italy',
+          attributes: {
+            name: 'Italy',
+            capital: 'Rome',
+            description: 'Italy description goes here!'
+          }
+        }, {
+          type: 'countries',
+          id: 'France',
+          attributes: {
+            name: 'France',
+            capital: 'Paris',
+            description: 'France description goes here!'
+          }
+      }]
+    }
+  });
+
+}
+
   // These comments are here to help you get started. Feel free to delete them.
 
   /*
@@ -24,4 +56,3 @@ export default function() {
 
     http://www.ember-cli-mirage.com/docs/v0.3.x/shorthands/
   */
-}

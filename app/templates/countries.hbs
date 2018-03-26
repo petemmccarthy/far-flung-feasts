@@ -1,4 +1,8 @@
-{{#each model as |countryType|}}
-  {{country-list country=countryType}}
-{{/each}}
+{{#country-filter
+  filter=(action 'filterByCountry')
+  as |filterResults|}}
+  {{#each filterResults as |countryType|}}
+    {{country-list country=countryType}}
+  {{/each}}
+{{/country-filter}}
 {{outlet}}

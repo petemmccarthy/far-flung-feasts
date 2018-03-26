@@ -28,8 +28,15 @@ export default function() {
       }
   ];
 
-  this.get('/countries', function() {
-    return { data: countries };
+  this.get('/countries', function(db, request) {
+    if (request.queryParams.name !== undefined) {
+      let filteredCountry = countries.filter(function(i) {
+        return i.attributes.name.toLowerCase().indexOf(request.queryParams.name.toLowerCase()) !== -1;
+      });
+      return { data: filteredCountry };
+    } else {
+      return { data: countries };
+    }
   });
 
   this.get('/countries/:id', function (db, request) {

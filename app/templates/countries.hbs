@@ -1,11 +1,4 @@
-{{#each model as |country|}}
-  <div class="col-md-4 mt50">
-    <figure>
-        <img class="flag" src="/assets/images/{{country.name}}.png" alt="{{country.name}}">
-      <figcaption class="text-center mt20">
-        <h4>{{country.name}}</h4>
-      </figcaption>
-    </figure>
-  </div>
+{{#each model as |countryType|}}
+  {{country-detail country=countryType}}
 {{/each}}
 {{outlet}}

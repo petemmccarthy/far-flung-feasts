@@ -13,7 +13,7 @@ Router.map(function() {
   this.route('countries', function() {
     this.route('country', { path: '/:country_id' });
   });
-
+  
 });
 
 export default Router;

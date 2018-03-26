@@ -11,7 +11,7 @@ Router.map(function() {
   this.route('home', { path: '/' });
   this.route('about');
   this.route('countries', function() {
-    this.route('country');
+    this.route('country', { path: '/:country_id' });
   });
 
 });

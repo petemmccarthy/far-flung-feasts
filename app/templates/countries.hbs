@@ -1,8 +1,10 @@
-{{#country-filter
-  filter=(action 'filterByCountry')
-  as |filterResults|}}
-  {{#each filterResults as |countryType|}}
-    {{country-list country=countryType}}
-  {{/each}}
-{{/country-filter}}
+<div class="col-sm-12 mt80">
+  {{#country-filter
+    filter=(action 'filterByCountry')
+    as |filterResults|}}
+    {{#each filterResults as |countryType|}}
+      {{country-list country=countryType}}
+    {{/each}}
+  {{/country-filter}}
+</div>
 {{outlet}}

@@ -1,13 +1,11 @@
-body, h1, h2, h3, p {
-  background-color: #f4ff88;
-  /* font-family: fantasy; */
-  font-family: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  color: #337ab7;
-}
-
-.text-center {
-  text-align: center;
+body, h1, h2, h3, h4, p {
+  background-color: #fcfcfc;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  color: #95a5a6;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 ul {
@@ -18,11 +16,45 @@ a, a:hover, a:focus {
   text-decoration: none;
 }
 
+.header {
+  background-color: #fcfcfc;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.home {
+  font-size: 22px;
+  font-style: italic;
+}
+
+.menu {
+  font-size: 14px;
+  margin-top: 8px
+}
+
+.text-center {
+  text-align: center;
+}
+
+.country-filter {
+  border-radius: 6px;
+  padding-left: 10px;
+  font-weight: 400;
+  font-style: italic;
+}
+
 .tag-line {
   font-size: 60px;
   font-weight: 300;
   font-style: italic;
   margin-top: 175px;
+  color: #afb2b5;
 }
 
 .flag {
@@ -48,10 +80,16 @@ a, a:hover, a:focus {
   margin-top: 50px;
 }
 
+.mt80 {
+  margin-top: 80px;
+}
+
 .footer {
-  background-color: #f4ff88;
+  background-color: #fcfcfc;
   position:fixed;
   bottom: 0;
   width: 100%;
-  font-size: 14px;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }

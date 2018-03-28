@@ -4,6 +4,7 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   color: #95a5a6;
+  max-width: 1000px;
   margin: 0 auto;
   /* background-image: url('/assets/images/blue.jpeg');
   height: 100%;
@@ -34,8 +35,17 @@ a, a:hover, a:focus {
   opacity: 0.9;
 }
 
+.logo {
+  margin-top: -20px;
+  margin-bottom: -20px;
+  width: 90px;
+  height: 90px;
+  position: relative;
+  overflow: hidden;
+}
+
 .home {
-  font-size: 22px;
+  font-size: 20px;
   font-style: italic;
 }
 
@@ -80,11 +90,10 @@ a, a:hover, a:focus {
   font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
-  /* color: black !important; */
 }
 
 .country-detail {
-  margin: 20px 0px 50px;
+  margin: 20px 0px 50px 0px;
 }
 
 .mt20 {

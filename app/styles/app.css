@@ -92,8 +92,8 @@ a, a:hover, a:focus {
   -webkit-font-smoothing: antialiased;
 }
 
-.country-detail {
-  margin: 20px 0px 50px 0px;
+.mb50 {
+  margin-bottom: 50px;
 }
 
 .mt20 {
@@ -105,7 +105,7 @@ a, a:hover, a:focus {
 }
 
 .countries {
-  margin: 80px 0px 50px;
+  margin: 80px 0px 50px 0px;
 }
 
 .footer {

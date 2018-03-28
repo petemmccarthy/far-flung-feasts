@@ -2,25 +2,23 @@ import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
 import { render } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
+import EmberObject from '@ember/object';
 
 module('Integration | Component | country-list', function(hooks) {
-  // setupRenderingTest(hooks);
-  //
-  // test('it renders', async function(assert) {
-  //   // Set any properties with this.set('myProperty', 'value');
-  //   // Handle any actions with this.set('myAction', function(val) { ... });
-  //
-  //   await render(hbs`{{country-list}}`);
-  //
-  //   assert.equal(this.element.textContent.trim(), '');
-  //
-  //   // Template block usage:
-  //   await render(hbs`
-  //     {{#country-list}}
-  //       template block text
-  //     {{/country-list}}
-  //   `);
-  //
-  //   assert.equal(this.element.textContent.trim(), 'template block text');
-  // });
+  setupRenderingTest(hooks);
+
+  hooks.beforeEach(function() {
+    this.country = EmberObject.create({
+      img: 'test-img.png',
+      name: 'test-name'
+    });
+  });
+
+  test('Should display a flag and name', async function(assert) {
+
+    await render(hbs`{{country-list country=country}}`);
+
+    assert.ok(this.element.querySelector('.country .flag'), 'displays the country flag');
+    assert.equal(this.$('.country p').text(), 'test-name', 'displays the country name')
+  });
 });

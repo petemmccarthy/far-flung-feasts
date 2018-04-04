@@ -49,11 +49,6 @@ a, a:hover, a:focus {
   font-style: italic;
 }
 
-.menu {
-  font-size: 14px;
-  margin-top: 8px
-}
-
 .text-center {
   text-align: center;
 }
@@ -117,4 +112,25 @@ a, a:hover, a:focus {
   padding-top: 5px;
   padding-bottom: 5px;
   opacity: 0.9;
+}
+
+@media (max-width: 704px) {
+  .mobile-home {
+    font-size: 16px;
+    margin-bottom: -20px;
+  }
+  .mobile-about-link {
+    font-size: 14px;
+    margin-left: -35px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo-container, .mobile-about-link, .mobile-home {
+    width: 100%;
+  }
+  .mobile-about-link, .mobile-home {
+    display: none;
+  }
 }

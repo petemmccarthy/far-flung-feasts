@@ -8,11 +8,9 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('index', { path: '/countries' });
-  // this.route('home', { path: '/' });
   this.route('about');
-  this.route('countries', { path: '/' }, function() {
-    this.route('country', { path: '/:country_id' });
-  });
+  this.route('countries', { path: '/' });
+  this.route('country', { path: '/:country_id' });
 
 });
 

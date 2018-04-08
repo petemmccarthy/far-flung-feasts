@@ -22,6 +22,26 @@ a, a:hover, a:focus {
   text-decoration: none;
 }
 
+.mt12 {
+  margin-top: 12px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+
+.countries {
+  margin: 80px 0px 0px 0px;
+}
+
 .header {
   background-color: #fcfcfc;
   text-align: center;
@@ -55,10 +75,11 @@ a, a:hover, a:focus {
 
 .country-filter {
   border-radius: 6px;
-  padding-left: 10px;
+  padding-left: 5px;
   font-weight: 400;
   font-style: italic;
   outline: none;
+  margin-bottom: 28px;
 }
 
 .tag-line {
@@ -87,30 +108,14 @@ a, a:hover, a:focus {
   -webkit-font-smoothing: antialiased;
 }
 
-.mb50 {
-  margin-bottom: 50px;
-}
-
-.mt20 {
-  margin-top: 20px;
-}
-
-.mt50 {
-  margin-top: 50px;
-}
-
-.countries {
-  margin: 80px 0px 50px 0px;
-}
-
 .footer {
   background-color: #fcfcfc;
   position:fixed;
   bottom: 0;
   width: 100%;
   font-size: 12px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  line-height: 1;
+  padding-top: 8px;
   opacity: 0.9;
 }
 
@@ -130,7 +135,10 @@ a, a:hover, a:focus {
   .logo-container, .mobile-about-link, .mobile-home {
     width: 100%;
   }
-  .mobile-about-link, .mobile-home {
+  .mobile-about-link, .mobile-home, .footer {
     display: none;
+  }
+  .header {
+    padding: 8px 0 0 0;
   }
 }

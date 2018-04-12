@@ -82,6 +82,10 @@ a, a:hover, a:focus {
   margin-bottom: 28px;
 }
 
+.country-detail {
+  margin-top: 80px;
+}
+
 .tag-line {
   font-size: 40px;
   font-weight: 300;

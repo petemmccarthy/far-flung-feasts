@@ -7,6 +7,7 @@ export default function() {
         attributes: {
           name: 'India',
           capital: 'New Delhi',
+          food: 'Biryani, Dosa & Pakora!',
           description: 'India description goes here!'
         }
       }, {
@@ -15,6 +16,7 @@ export default function() {
         attributes: {
           name: 'Italy',
           capital: 'Rome',
+          food: 'Pizza, Pasta & Spicy Meatballs!',
           description: 'Italy description goes here!'
         }
       }, {
@@ -23,6 +25,7 @@ export default function() {
         attributes: {
           name: 'Japan',
           capital: 'Tokyo',
+          food: 'Katsu, Sushi & Tempura!',
           description: 'Japan description goes here!'
         }
       }, {
@@ -31,6 +34,7 @@ export default function() {
         attributes: {
           name: 'France',
           capital: 'Paris',
+          food: 'Snails, Frogs Legs & Garlic!',
           description: 'France description goes here!'
         }
       }, {
@@ -39,6 +43,7 @@ export default function() {
         attributes: {
           name: 'Spain',
           capital: 'Madrid',
+          food: 'Paella, Tapas & Pisto!',
           description: 'Spain description goes here!'
         }
       }, {
@@ -47,6 +52,7 @@ export default function() {
         attributes: {
           name: 'Germany',
           capital: 'Berlin',
+          food: 'Schnitzel, Bratwurst & Frankfurter!',
           description: 'Germany description goes here!'
         }
       }, {
@@ -55,6 +61,7 @@ export default function() {
         attributes: {
           name: 'Thailand',
           capital: 'Bangkok',
+          food: 'Gaeng Daeng, Tom Yum Goong & Pad Thai!',
           description: 'Thailand description goes here!'
         }
       }, {
@@ -63,6 +70,7 @@ export default function() {
         attributes: {
           name: 'Vietnam',
           capital: 'Hanoi',
+          food: 'Pak Choi, Banh Mi & Pho!',
           description: 'Vietnam description goes here!'
         }
       }, {
@@ -71,6 +79,7 @@ export default function() {
         attributes: {
           name: 'Argentina',
           capital: 'Buenos Aires',
+          food: 'Steak, Asado & Empanadas!',
           description: 'Argentina description goes here!'
         }
       }, {
@@ -79,6 +88,7 @@ export default function() {
         attributes: {
           name: 'USA',
           capital: 'Washington',
+          food: 'Burgers, Bagels & Deep-Dish Pizza!',
           description: 'USA description goes here!'
         }
       }, {
@@ -87,6 +97,7 @@ export default function() {
         attributes: {
           name: 'Portugal',
           capital: 'Lisbon',
+          food: 'Bacalhau, Francesinha & Porco Preto!',
           description: 'Portugal description goes here!'
         }
       }, {
@@ -95,6 +106,7 @@ export default function() {
         attributes: {
           name: 'Greece',
           capital: 'Athens',
+          food: 'Feta, Olives & Mousaka',
           description: 'Greece description goes here!'
         }
       }

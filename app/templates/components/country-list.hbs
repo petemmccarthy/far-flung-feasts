@@ -1,8 +1,10 @@
 <div class="col-sm-2 col-xs-3 country">
-  <figure>
-      <img class="flag" src="/assets/images/{{country.name}}.png" alt="{{country.name}}">
-    <figcaption class="text-center mt12 mb30">
-      <p>{{#link-to "country" country}}{{country.name}}{{/link-to}}</p>
-    </figcaption>
-  </figure>
+  {{#link-to "country" country}}
+    <figure>
+        <img class="flag" src="/assets/images/{{country.name}}.png" alt="{{country.name}}">
+      <figcaption class="text-center mt12 mb30">
+        <p>{{country.name}}</p>
+      </figcaption>
+    </figure>
+  {{/link-to}}
 </div>

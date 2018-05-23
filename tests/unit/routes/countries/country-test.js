@@ -5,7 +5,7 @@ module('Unit | Route | countries/country', function(hooks) {
   setupTest(hooks);
 
   test('it exists', function(assert) {
-    let route = this.owner.lookup('route:countries/country');
+    let route = this.owner.lookup('route:country');
     assert.ok(route);
   });
 });

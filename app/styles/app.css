@@ -73,6 +73,11 @@ a, a:hover, a:focus {
   text-align: center;
 }
 
+.center {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
 .country-filter {
   border-radius: 6px;
   padding-left: 5px;
@@ -84,14 +89,6 @@ a, a:hover, a:focus {
 
 .country-detail {
   margin-top: 80px;
-}
-
-.tag-line {
-  font-size: 40px;
-  font-weight: 300;
-  font-style: italic;
-  margin-top: 175px;
-  color: #afb2b5;
 }
 
 .flag {
@@ -136,6 +133,14 @@ a, a:hover, a:focus {
 }
 
 @media (max-width: 400px) {
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+  .flag {
+    width: 30px;
+    height: 40px;
+  }
   .logo-container, .mobile-about-link, .mobile-home {
     width: 100%;
   }
@@ -145,7 +150,13 @@ a, a:hover, a:focus {
   .header {
     padding: 8px 0 0 0;
   }
-  .about {
-    padding:0px 50px 0px 50px;
+  .countries {
+    margin: 60px 0 0 0;
+  }
+  input {
+    line-height: 1;
+  }
+  body {
+    font-size: 12px;
   }
 }

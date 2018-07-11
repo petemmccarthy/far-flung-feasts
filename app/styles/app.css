@@ -6,11 +6,6 @@ body {
   color: #95a5a6;
   max-width: 1000px;
   margin: 0 auto;
-  /* background-image: url('/assets/images/blue.jpeg');
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 
 ul {
@@ -53,6 +48,7 @@ a, a:hover, a:focus {
   width: 100%;
   z-index: 1;
   opacity: 0.9;
+  animation: moveIn 1.0s forwards;
 }
 
 .logo {
@@ -98,6 +94,12 @@ a, a:hover, a:focus {
   padding-top: 20px;
   position: relative;
   overflow: hidden;
+
+}
+
+.flag:hover {
+    animation: shake 2.5s;
+    animation-iteration-count: infinite;
 }
 
 .about {
@@ -107,6 +109,19 @@ a, a:hover, a:focus {
   font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
+}
+
+.about-slide-in-1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  animation: moveIn 1.0s forwards;
+}
+.about-slide-in-2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  animation: moveIn 2.3s forwards;
 }
 
 .footer {
@@ -120,6 +135,7 @@ a, a:hover, a:focus {
   opacity: 0.9;
 }
 
+/* media */
 @media (max-width: 704px) {
   .mobile-home {
     font-size: 16px;
@@ -161,12 +177,7 @@ a, a:hover, a:focus {
   }
 }
 
-#slideIn {
-  width: 100%;
-  position: absolute;
-  animation: moveIn 1.0s forwards;
-}
-
+/* animations */
 @keyframes moveIn {
   from {
     left: -1000px;
@@ -174,4 +185,18 @@ a, a:hover, a:focus {
   to {
     left: 0px;
   }
+}
+
+@keyframes shake {
+  0% { transform: translate(2px, 0px) rotate(0deg); }
+  10% { transform: translate(1px, 0px) rotate(3deg); }
+  20% { transform: translate(4px, 0px) rotate(1deg); }
+  30% { transform: translate(0px, 0px) rotate(3deg); }
+  40% { transform: translate(2px, 0px) rotate(5deg); }
+  50% { transform: translate(0px, 0px) rotate(3deg); }
+  60% { transform: translate(3px, 0px) rotate(4deg); }
+  70% { transform: translate(0px, 0px) rotate(3deg); }
+  80% { transform: translate(5px, 0px) rotate(2deg); }
+  90% { transform: translate(0px, 0px) rotate(3deg); }
+  100% { transform: translate(4px, 0px) rotate(0deg); }
 }

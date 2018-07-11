@@ -160,3 +160,18 @@ a, a:hover, a:focus {
     font-size: 12px;
   }
 }
+
+#slideIn {
+  width: 100%;
+  position: absolute;
+  animation: moveIn 1.0s forwards;
+}
+
+@keyframes moveIn {
+  from {
+    left: -1000px;
+  }
+  to {
+    left: 0px;
+  }
+}

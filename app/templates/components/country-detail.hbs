@@ -2,14 +2,20 @@
   <div>
     <strong>{{model.food}}</strong>
   </div>
+
   <figure>
       <img class="flag" src="/assets/images/{{model.name}}.png" alt="{{country.name}}">
-    <figcaption class="text-center mt12 mb30">
+    <figcaption class="text-center mt12">
     </figcaption>
   </figure>
-  <em>A little bit about {{model.name}}</em>
+
+  <h1><em>{{model.name}}</em></h1>
+
   <div class="capital">
     <strong>Capital:</strong> {{model.capital}}
   </div>
-  <p class="description">{{model.description}}</p>
+
+  <div class="recipe mt12">
+    {{model.dish}}
+  </div>
 </div>

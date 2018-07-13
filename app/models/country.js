@@ -6,5 +6,6 @@ export default DS.Model.extend({
   food: DS.attr(),
   dish: DS.attr(),
   ingredients: DS.attr(),
-  recipe: DS.attr()
+  step1: DS.attr(),
+  step2: DS.attr()
 });

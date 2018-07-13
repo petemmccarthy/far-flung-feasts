@@ -10,7 +10,8 @@ export default function() {
           food: 'Biryani, Dosa & Pakora!',
           dish: 'Spaghetti Bolognese',
           ingredients: ['olive oil', 'pasta', 'tomatoes'],
-          recipe: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until they both brown. Add the mushrooms and herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato ketchup or purée, Worcestershire sauce and seasoning. Bring to the boil, then reduce the heat, cover and simmer, stirring occasionally, for 30 mins. Meanwhile, cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
+          step1: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until both brown. Add the herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato purée and seasoning. Bring to the boil and then simmer, stirring occasionally, for 30 mins.',
+          step2: 'Cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
         }
       }, {
       type: 'countries',
@@ -21,7 +22,8 @@ export default function() {
           food: 'Pizza, Pasta & Spicy Meatballs!',
           dish: 'Spaghetti Bolognese',
           ingredients: ['olive oil', 'pasta', 'tomatoes'],
-          recipe: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until they both brown. Add the mushrooms and herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato ketchup or purée, Worcestershire sauce and seasoning. Bring to the boil, then reduce the heat, cover and simmer, stirring occasionally, for 30 mins. Meanwhile, cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
+          step1: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until both brown. Add the herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato purée and seasoning. Bring to the boil and then simmer, stirring occasionally, for 30 mins.',
+          step2: 'Cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
         }
       }, {
       type: 'countries',
@@ -30,7 +32,10 @@ export default function() {
           name: 'Japan',
           capital: 'Tokyo',
           food: 'Katsu, Sushi & Tempura!',
-          description: 'Japan description goes here!'
+          dish: 'Spaghetti Bolognese',
+          ingredients: ['olive oil', 'pasta', 'tomatoes'],
+          step1: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until both brown. Add the herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato purée and seasoning. Bring to the boil and then simmer, stirring occasionally, for 30 mins.',
+          step2: 'Cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
         }
       }, {
       type: 'countries',
@@ -41,7 +46,8 @@ export default function() {
           food: 'Snails, Frogs Legs & Garlic!',
           dish: 'Spaghetti Bolognese',
           ingredients: ['olive oil', 'pasta', 'tomatoes'],
-          recipe: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until they both brown. Add the mushrooms and herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato ketchup or purée, Worcestershire sauce and seasoning. Bring to the boil, then reduce the heat, cover and simmer, stirring occasionally, for 30 mins. Meanwhile, cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
+          step1: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until both brown. Add the herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato purée and seasoning. Bring to the boil and then simmer, stirring occasionally, for 30 mins.',
+          step2: 'Cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
         }
       }, {
       type: 'countries',
@@ -52,7 +58,8 @@ export default function() {
           food: 'Paella, Tapas & Pisto!',
           dish: 'Spaghetti Bolognese',
           ingredients: ['olive oil', 'pasta', 'tomatoes'],
-          recipe: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until they both brown. Add the mushrooms and herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato ketchup or purée, Worcestershire sauce and seasoning. Bring to the boil, then reduce the heat, cover and simmer, stirring occasionally, for 30 mins. Meanwhile, cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
+          step1: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until both brown. Add the herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato purée and seasoning. Bring to the boil and then simmer, stirring occasionally, for 30 mins.',
+          step2: 'Cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
         }
       }, {
       type: 'countries',
@@ -63,7 +70,8 @@ export default function() {
           food: 'Schnitzel, Bratwurst & Frankfurter!',
           dish: 'Spaghetti Bolognese',
           ingredients: ['olive oil', 'pasta', 'tomatoes'],
-          recipe: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until they both brown. Add the mushrooms and herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato ketchup or purée, Worcestershire sauce and seasoning. Bring to the boil, then reduce the heat, cover and simmer, stirring occasionally, for 30 mins. Meanwhile, cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
+          step1: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until both brown. Add the herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato purée and seasoning. Bring to the boil and then simmer, stirring occasionally, for 30 mins.',
+          step2: 'Cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
         }
       }, {
       type: 'countries',
@@ -74,7 +82,8 @@ export default function() {
           food: 'Gaeng Daeng, Tom Yum Goong & Pad Thai!',
           dish: 'Spaghetti Bolognese',
           ingredients: ['olive oil', 'pasta', 'tomatoes'],
-          recipe: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until they both brown. Add the mushrooms and herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato ketchup or purée, Worcestershire sauce and seasoning. Bring to the boil, then reduce the heat, cover and simmer, stirring occasionally, for 30 mins. Meanwhile, cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
+          step1: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until both brown. Add the herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato purée and seasoning. Bring to the boil and then simmer, stirring occasionally, for 30 mins.',
+          step2: 'Cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
         }
       }, {
       type: 'countries',
@@ -85,7 +94,8 @@ export default function() {
           food: 'Pak Choi, Banh Mi & Pho!',
           dish: 'Spaghetti Bolognese',
           ingredients: ['olive oil', 'pasta', 'tomatoes'],
-          recipe: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until they both brown. Add the mushrooms and herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato ketchup or purée, Worcestershire sauce and seasoning. Bring to the boil, then reduce the heat, cover and simmer, stirring occasionally, for 30 mins. Meanwhile, cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
+          step1: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until both brown. Add the herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato purée and seasoning. Bring to the boil and then simmer, stirring occasionally, for 30 mins.',
+          step2: 'Cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
         }
       }, {
       type: 'countries',
@@ -96,7 +106,8 @@ export default function() {
           food: 'Steak, Asado & Empanadas!',
           dish: 'Spaghetti Bolognese',
           ingredients: ['olive oil', 'pasta', 'tomatoes'],
-          recipe: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until they both brown. Add the mushrooms and herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato ketchup or purée, Worcestershire sauce and seasoning. Bring to the boil, then reduce the heat, cover and simmer, stirring occasionally, for 30 mins. Meanwhile, cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
+          step1: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until both brown. Add the herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato purée and seasoning. Bring to the boil and then simmer, stirring occasionally, for 30 mins.',
+          step2: 'Cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
         }
       }, {
       type: 'countries',
@@ -107,7 +118,8 @@ export default function() {
           food: 'Burgers, Bagels & Deep-Dish Pizza!',
           dish: 'Spaghetti Bolognese',
           ingredients: ['olive oil', 'pasta', 'tomatoes'],
-          recipe: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until they both brown. Add the mushrooms and herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato ketchup or purée, Worcestershire sauce and seasoning. Bring to the boil, then reduce the heat, cover and simmer, stirring occasionally, for 30 mins. Meanwhile, cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
+          step1: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until both brown. Add the herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato purée and seasoning. Bring to the boil and then simmer, stirring occasionally, for 30 mins.',
+          step2: 'Cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
         }
       }, {
       type: 'countries',
@@ -118,7 +130,8 @@ export default function() {
           food: 'Bacalhau, Francesinha & Porco Preto!',
           dish: 'Spaghetti Bolognese',
           ingredients: ['olive oil', 'pasta', 'tomatoes'],
-          recipe: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until they both brown. Add the mushrooms and herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato ketchup or purée, Worcestershire sauce and seasoning. Bring to the boil, then reduce the heat, cover and simmer, stirring occasionally, for 30 mins. Meanwhile, cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
+          step1: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until both brown. Add the herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato purée and seasoning. Bring to the boil and then simmer, stirring occasionally, for 30 mins.',
+          step2: 'Cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
         }
       }, {
       type: 'countries',
@@ -129,7 +142,8 @@ export default function() {
           food: 'Feta, Olives & Mousaka',
           dish: 'Spaghetti Bolognese',
           ingredients: ['olive oil', 'pasta', 'tomatoes'],
-          recipe: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until they both brown. Add the mushrooms and herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato ketchup or purée, Worcestershire sauce and seasoning. Bring to the boil, then reduce the heat, cover and simmer, stirring occasionally, for 30 mins. Meanwhile, cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
+          step1: 'Put the onion and oil in a large pan and fry over a fairly high heat for 3-4 mins. Add the garlic and mince and fry until both brown. Add the herbs, and cook for another couple of mins. Stir in the tomatoes, beef stock, tomato purée and seasoning. Bring to the boil and then simmer, stirring occasionally, for 30 mins.',
+          step2: 'Cook the spaghetti in a large pan of boiling, salted water, according to packet instructions. Drain well, run hot water through it, put it back in the pan and add a dash of olive oil, if you like, then stir in the meat sauce. Serve in hot bowls and hand round Parmesan cheese, for sprinkling on top.'
         }
       }
   ];

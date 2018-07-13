@@ -137,7 +137,7 @@ export default function() {
   this.get('/countries', function(db, request) {
     if (request.queryParams.name !== undefined) {
       let filteredCountries = countries.filter(function(i) {
-        return i.attributes.name.toLowerCase().indexOf(request.queryParams.name.toLowerCase()) !== -1;
+        return i.attributes.name.toLowerCase().indexOf(request.queryParams.name.toLowerCase()) === 0;
       });
       return { data: filteredCountries };
     } else {

@@ -1,21 +1,37 @@
 <div class="country-detail">
-  <div>
-    <strong>{{model.food}}</strong>
-  </div>
 
-  <figure>
-      <img class="flag" src="/assets/images/{{model.name}}.png" alt="{{country.name}}">
-    <figcaption class="text-center mt12">
-    </figcaption>
-  </figure>
-
-  <h1><em>{{model.name}}</em></h1>
+  <h1 class="country-name"><em>{{model.name}}</em></h1>
 
   <div class="capital">
     <strong>Capital:</strong> {{model.capital}}
   </div>
 
-  <div class="recipe mt12">
-    {{model.dish}}
+  <figure class="mt12 mb30">
+    <img src="/assets/images/{{model.name}}.png" alt="{{country.name}}">
+  </figure>
+
+  <section class="center">
+    <h3 class="dish">
+      {{model.dish}}
+    </h3>
+
+    <h4><em>Main Ingredients</em></h4>
+    <ul class="ingredients">
+      {{#each model.ingredients as |ingredient|}}
+        <li>{{ingredient}}</li>
+      {{/each}}
+    </ul>
+  </section>
+
+  <section class="recipe mt12 mb30 center">
+    <h5>Step 1</h5>
+    <p class="step1">{{model.step1}}</p>
+    <h5>Step 2</h5>
+    <p class="step2">{{model.step2}}</p>
+  </section>
+
+  <div class="other-foods mb50">
+    <strong>Other favourite dishes:</strong> {{model.food}}
   </div>
+
 </div>

@@ -11,7 +11,11 @@ module('Integration | Component | country-detail', function(hooks) {
     this.model = EmberObject.create({
       name: 'test-name',
       capital: 'test-capital',
-      description: 'test-description'
+      dish: 'test-dish',
+      ingredients: 'test-ingredients',
+      step1: 'test-recipe-step1',
+      step2: 'test-recipe-step2',
+      food: 'test-food'
     });
   });
 
@@ -19,8 +23,11 @@ module('Integration | Component | country-detail', function(hooks) {
 
     await render(hbs`{{country-detail model=model}}`);
 
-    assert.equal(this.$('.country-detail em').text(), 'A little bit about test-name', 'displays the country name');
-    assert.equal(this.$('.capital').text().trim(), 'Capital: test-capital', 'displays the country capital');
-    assert.equal(this.$('.country-detail .description').text().trim(), 'test-description', 'displays the country description');
+    assert.equal(this.$('.country-name').text(), 'test-name', 'displays the country name');
+    assert.equal(this.$('.capital').text().trim(), 'Capital: test-capital', 'displays the capital');
+    assert.equal(this.$('.dish').text().trim(), 'test-dish', 'displays the dish');
+    assert.equal(this.$('.recipe .step1').text().trim(), 'test-recipe-step1', 'displays the recipe step1');
+    assert.equal(this.$('.recipe .step2').text().trim(), 'test-recipe-step2', 'displays the recipe step2');
+    assert.equal(this.$('.other-foods').text().trim(), 'Other favourite dishes: test-food', 'displays other foods');
   });
 });

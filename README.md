@@ -1,7 +1,16 @@
-# far-flung-feasts
+# Far Flung Feasts
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+I made this app as a re-intorduction to the EmberJS framework which I have used previously. You can select or search/filter through a limited list of countries and you're displayed in recipe from that country.
+
+## To be finished/bugs to fix...
+
+* A form/input area for users to send in recipes
+* More countries/recipes
+* Map displying selected country/region
+* Images
+* Links to local takeaways/travel websites/cookbooks
+* Further tests
+* Needs a litle bit more styling!
 
 ## Prerequisites
 
@@ -14,7 +23,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/petemmccarthy/far-flung-feasts.git`
 * `cd far-flung-feasts`
 * `npm install`
 

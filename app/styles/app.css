@@ -65,6 +65,12 @@ a, a:hover, a:focus {
   font-style: italic;
 }
 
+.menu-about p {
+  text-align: left;
+  margin-bottom: 0px;
+  padding-top: 2px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -98,15 +104,9 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
 
 }
 
-.flag:hover {
+.select-country:hover {
     animation: shake 2.5s;
     animation-iteration-count: infinite;
-}
-
-.about {
-  margin-top: 150px;
-  padding:0px 100px 0px 100px;
-  text-align: left;
 }
 
 .about-slide-in-1 {
@@ -143,19 +143,18 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
   width: 100%;
   font-size: 12px;
   line-height: 1;
-  padding-top: 8px;
+  padding-top: 5px;
   opacity: 0.9;
 }
 
 /* media */
-@media (max-width: 704px) {
+@media (max-width: 700px) {
   .mobile-home {
     font-size: 16px;
     margin-bottom: -20px;
   }
   .mobile-about-link {
     font-size: 14px;
-    margin-left: -35px;
     padding-right: 10px;
   }
 }

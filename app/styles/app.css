@@ -109,6 +109,12 @@ input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
     animation-iteration-count: infinite;
 }
 
+.about {
+  margin-top: 150px;
+  padding:0px 100px 0px 100px;
+  text-align: left;
+}
+
 .about-slide-in-1 {
   position: relative;
   top: 0;
